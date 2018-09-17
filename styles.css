@@ -11,9 +11,18 @@
   background: url(file:///C:/Users/bp/Desktop/CTVA%20461/peczon-project-1/images/golden-gate-1.jpg?#) center center no-repeat;
   background-attachment: fixed;
 }
-
+.bg-body{
+	opacity:0.7;
+	background:  url(file:///C:/Users/bp/Desktop/CTVA%20461/peczon-project-1/images/pink-gate.jpg?#) center center no-repeat;
+}
+.bg-footer{
+	background: url(#) center center no repeat;
+	background-attachment:fixed;
+}
+.bg-lombard{
+	background: url(file:///C:/Users/bp/Desktop/CTVA%20461/peczon-project-1/images/lombard.jpg?#);
+}
 .bg-quote {
   background: url(file:///C:/Users/bp/Desktop/CTVA%20461/peczon-project-1/images/cable-car.jpg?#) center center no-repeat;
   background-attachment: fixed;
 }
-
