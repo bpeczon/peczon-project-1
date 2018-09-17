@@ -1,18 +1,19 @@
- .bg-header {
-  background: url(https://picsum.photos/1600/1600/?random) center center no-repeat;
+/**
+ * Custom CSS
+ *
+ * Add this to your Tailwind CSS file,
+ * or to a separate, custom CSS file.
+ *
+ * Update the background images to suit
+ * your project.
+ */
+.bg-header {
+  background: url(file:///C:/Users/bp/Desktop/CTVA%20461/peczon-project-1/images/golden-gate-1.jpg?#) center center no-repeat;
   background-attachment: fixed;
-  background-size:cover;
 }
 
 .bg-quote {
-  background: url(https://picsum.photos/1600/1600/?random) center center no-repeat;
+  background: url(file:///C:/Users/bp/Desktop/CTVA%20461/peczon-project-1/images/cable-car.jpg?#) center center no-repeat;
   background-attachment: fixed;
 }
 
-load custom fonts
-.font-serif{
-font-family: 'Bree Serif', serif;
-}
-.font-sans{
-font-family: 'Noto Serif KR', sans-serif;
-} 
