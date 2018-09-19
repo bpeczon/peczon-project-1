@@ -10,7 +10,7 @@
 	<title>The SF Experience | Beatrice Peczon</title>
 </head>
 <body>
-	<div class="absolute flex items-center justify-between mb-4 md:mb-0">
+	<div class="absolute flex items-center justify-between md:mb-0">
 	    <h1 class="leading-none text-2xl text-center">
 	    	<ul class="list-reset md:flex">
 				<li class="text-center">
@@ -18,7 +18,7 @@
 				</li>
 				<li class="">
 					<div class="dropdown-nav">
-						<a class="bg-tab link-hover inline-block no-underline py-3 px-3 text-green-darker shadow-md static" href="index.html">Places To See</a>
+						<a class="bg-tab link-hover inline-block no-underline py-3 px-3 text-green-darker shadow-md static">Places To See</a>
 						<div class="absolute pin-t-10 pin-x dropdown-content text-center text-sm">
 							<a href="page2.html" class="link text-red-darker">Coit Tower</a>
 							<a href="page3.html" class="link text-red-darker">The Painted Ladies</a>
@@ -27,13 +27,34 @@
 					</div><!--dropdown-nav--->	
 				</li>  	
 		  		<li class="">
-		   			<a class="bg-tab inline-block no-underline py-3 px-3 text-green-darker shadow-md" href="page4.html">Photos</a>
+		   			<a class="bg-tab inline-block no-underline py-3 px-3 text-green-darker shadow-md" href="page4.html">Gallery</a>
 		 		</li>
 			</ul>
 	   		<a class="no-underline text-white hover:text-black" href="index.html"></a>
 	    </h1>
 	</div>	
-	<article>
+
+	<article class="parallax-container">
+		<header class="parallax flex items-center justify-center h-screen pb-12">
+		  <div class="video-wrapper">
+		  	<div class="absolute bg-yellow-light mx-4 rounded-lg text-center shadow-lg">
+			  	<p class="italic text-sm">The</p>
+			    <h1 class="leading-none p-4 text-10xl uppercase video-title md:p-8 md:text-5xl lg:text-10-xl">
+			      San Francisco Experience
+			    </h1>
+			    <p class="italic text-sm">Beatrice Peczon</p>
+			</div>
+		    <video autoplay loop muted class="w-full">
+		      <source src="images/golden-gate-vid.mp4" type="video/mp4" />Your browser does not support the video tag.
+		      <source src="images/golden-gate-vid.webm" type="video/webm" />Your browser does not support the video tag.
+		    </video>
+		  </div>
+		</header>
+
+
+
+
+	<!-- <article>
 		<header class="bg-header flex items-center justify-center h-screen pb-12">
 			<div class="bg-yellow-light mx-4 mt-20 p-4 rounded-lg text-center shadow-lg md:p-8">
 				<p class="italic text-sm">The</p>
@@ -41,7 +62,7 @@
 				<p class="text-lg">Beatrice Peczon</p>
 			</div>
 		</header>
-	</article>	
+	</article>	 -->
 <body>
 	
 </body>
