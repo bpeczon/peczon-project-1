@@ -7,6 +7,9 @@
  * Update the background images to suit
  * your project.
  */
+ body{
+ 	font-family: 'Raleway', sans-serif;
+ }
 .bg-header {
   background: url(images/golden-gate-1.jpg?#) center center no-repeat;
   background-attachment: fixed;
