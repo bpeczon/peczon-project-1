@@ -32,9 +32,13 @@
 	background: url(images/cable-car.jpg?#) center center no-repeat;
 	background-attachment: fixed;
 }
+.bg-tab{
+	background: rgba(255,255,255, .2)
+}
 .dropdown-nav, .link, .link-hover {
 	display: inline-block;
 	text-decoration: none;
+	background: rgba(255,255,255, .2)
 }
 .dropdown-content {
 	display: none; 
