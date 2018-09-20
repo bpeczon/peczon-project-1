@@ -19,7 +19,8 @@
 	background:  url(images/pink-gate.jpg?#) center center no-repeat;
 }
 .bg-coit-tower{
-	background: url(images/coit-tower.jpg?#) right center no-repeat;
+	background: url(images/coit-tower.jpg?#) center center no-repeat;
+	background-attachment: fixed;
 }
 .bg-footer{
 	background: url(images/golden-gate-3.jpg?#) center center no-repeat;
