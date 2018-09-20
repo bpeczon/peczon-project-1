@@ -46,7 +46,7 @@
 	display: none; 
  	position: absolute;
  	padding:10px;
- 	background: rgba(255,255,255)
+ 	background: rgba(245,177,177)
 }
 .dropdown-nav:hover .dropdown-content{
 	display: inline-block;
