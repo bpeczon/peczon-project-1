@@ -68,7 +68,7 @@
 
 <!----------Gallery---------->
 .video-title {
-  background: #000;
+/*   background: #000; */
   background-attachment: fixed;
 }
 
@@ -122,7 +122,7 @@
   }
 
   .video-title {
-    background-color: rgba(0,0,0, .7);
+    /* background-color: rgba(0,0,0, .7); */
     position: absolute;
       top: 50%;
       left: 50%;
