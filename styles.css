@@ -1,13 +1,4 @@
-/**
- * Custom CSS
- *
- * Add this to your Tailwind CSS file,
- * or to a separate, custom CSS file.
- *
- * Update the background images to suit
- * your project.
- */
- body{
+body{
  	font-family: 'Raleway', sans-serif;
  }
 .bg-header {
@@ -41,6 +32,9 @@
 }
 .bg-tab{
 	background: rgba(255,255,255, .5)
+}
+.bg-text{
+	background: rgba(0,0,0, .7);
 }
 .dropdown-nav, .link, .link-hover {
 	display: inline-block;
