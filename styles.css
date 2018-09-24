@@ -26,6 +26,9 @@
 	background: url(images/golden-gate-3.jpg?#) center center no-repeat;
 	background-attachment:fixed;
 }
+.bg-gallery{
+	background: url(images/golden-gate-vid.mp4);
+}
 .bg-lombard{
 	background: url(images/lombard.jpg?#) center center no-repeat;
 }
@@ -66,6 +69,7 @@
 <!----------Gallery---------->
 .video-title {
   background: #000;
+  background-attachment: fixed;
 }
 
 @media only screen and (min-width : 768px) {
