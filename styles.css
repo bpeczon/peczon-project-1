@@ -61,6 +61,10 @@ body{
 
 
 <!----------Gallery---------->
+.video-title {
+  background: #000;
+}
+
 @media only screen and (min-width : 768px) {
   /**
    * Parallax
@@ -96,21 +100,22 @@ body{
     height: 100vh;
     overflow: hidden;
     position: relative;
-    width: 25%;
-}
+    width: 100%;
+  }
 
   .video-wrapper video {
     height: auto;
     min-height: 100%;
-    max-width: 25%;
+    min-width: 100%;
     position: absolute;
       top: 50%;
       left: 50%;
     transform: translate(-50%,-50%);
     width: auto;
   }
+
   .video-title {
-    /* background-color: rgba(0,0,0, .7); */
+/*     background-color: rgba(0,0,0, .7); */
     position: absolute;
       top: 50%;
       left: 50%;
