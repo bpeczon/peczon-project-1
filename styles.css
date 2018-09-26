@@ -17,14 +17,13 @@ body{
 	background: url(images/golden-gate-3.jpg?#) center center no-repeat;
 	background-attachment:fixed;
 }
-.bg-gallery{
-	background: url(images/golden-gate-vid.mp4);
-}
 .bg-downtown{
 	background: url(images/downtown.jpg?#) center center no-repeat;
+	background-attachment: fixed;
 }
-.bg-painted-ladies{
-	background: url(images/painted-ladies.jpg?#) center center no-repeat;
+.bg-alcatraz{
+	background: url(images/alcatraz.jpg?#) center center no-repeat;
+	background-attachment: fixed;
 }
 .bg-quote {
 	background: url(images/cable-car.jpg?#) center center no-repeat;
