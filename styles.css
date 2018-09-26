@@ -64,7 +64,7 @@ body{
   background: #000;
 }
 .img-grid img{
-	border-radius: 5px;
+	border-radius: 45%;
 	cursor: pointer;
 }
 
