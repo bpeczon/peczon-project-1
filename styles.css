@@ -68,7 +68,8 @@ body{
 }
 .img-grid img{
 	border-radius: 50%;
-	border-style: black;
+	border-bottom-right-radius: 20%;
+	border-bottom-left-radius: 20%; 
 	cursor: pointer;
 }
 .img-grid img:hover {
