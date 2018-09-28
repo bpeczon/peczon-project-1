@@ -60,8 +60,9 @@ body{
 .list-reset{
 	text-decoration: none;
 }
-
-
+.pin-t{
+	top:20%;
+}
 <!----------Gallery---------->
 .video-title {
   background: #000;
